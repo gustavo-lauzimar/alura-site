@@ -1,30 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    background-color: #eeeeee;
+    background-color: #aaaaaa;
 }
-
-header {
-    background-color: #1732BE;
-    display: flex;
-    height: 128px;
-}
-
-header .header-text-buttons button{
-
-    text-decoration: none;
-    border: 2px solid #05eeff;
-    background-color: #10a2fe;
-    color: #212121;
-    border-radius: 10px;
-    margin: 10px;
-    width: 150px;
-    height: 40px;
-}
-
-header .header-text-buttons{
-    display: inline-block;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-

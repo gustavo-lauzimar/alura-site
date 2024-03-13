@@ -1,0 +1,20 @@
+.projects{
+    margin-top: 100px;
+}
+.projects *{
+    color: #333333;
+}
+
+.projects h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects p{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+}

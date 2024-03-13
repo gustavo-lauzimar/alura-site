@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles/style.css">
+
     <title>Meu website</title>
+
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/content.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="header-text-buttons">
-            <button class="about">
-                <p>Sobre</p>
-            </button>
-            <button class="whoIAm">
-                <p>Quem sou eu</p>
-            </button>
-            <button class="creating">
-                <p>Criando</p>
-            </button>
-        </div>
-        <div class="3-bars">
-        </div>
+        <a class="logotype"> <h1>Gustavo H.</h1></a>
+        <nav>
+            <a class="a" href="#about">Sobre</a>
+            <a class="a" href="#whoiam">Quem sou eu</a>
+            <a class="a" href="#projects">Projetos</a>
+            <a class="threebars"><img src="src/images/3-bars.png" alt="3 bars image"></a>
+        </nav>
     </header>
+
+    <section class="projects" id="projects">
+        <h2>Projetos</h2>
+        <p>Meus projetos são escritos em C, Rust, Lua, C# e Java</p>
+    </section>
 </body>
 </html>

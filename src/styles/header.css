@@ -1,0 +1,36 @@
+header{
+    background-color: #777777;
+    overflow: hidden;
+    padding: 12px;
+    align-items: center;
+}
+
+header *{
+    color:#aaaaaa;
+    text-decoration:  none;
+}
+
+header .logotype{
+    float: left;
+    transition: 0.15s;
+}
+
+header nav{
+    float: right;
+    display: flex;
+    padding: 10px;
+}
+
+header nav .a{
+    padding: 8px;
+    transition: 0.2s;
+}
+header nav .threebars img{
+    height: 30px;
+    margin-left: 20px;
+}
+
+header .a:hover{
+    background-color: #888888;
+    border-radius: 8%;
+}
